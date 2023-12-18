@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="icon" type="image/jpg" href="logo1.jpg">
+    <style>
+      body {
+          margin: 0;
+          background-color: rgb(208, 241, 241);
+          font-family: Arial, sans-serif;
+          background-image: url(sign2.jpg);
+          background-size: cover; /* Ensures the background image covers the entire viewport */
+            background-position: center; /* Centers the background image */
+            background-repeat: no-repeat; /* Prevents the background image from repeating */
+            margin: 0; /* Removes default body margin */
+            font-family: Arial, sans-serif; /* Specify a font for the entire page */
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Ensures the body takes at least the full height of the viewport */
+            
+          
+      } 
+      header {
+         
+          padding: 10px;
+          padding-left: 50px;
+          color: white;
+          text-align: center;
+          display: flex; /* Use flexbox to place children in a row */
+          justify-content: space-between; /* Space between logo and nav */
+      }
+      header img {
+          max-height: 100px; 
+          
+      }
+
+      nav {
+          
+          overflow: hidden;
+          padding-right: 40px;
+          padding-top: 20px;
+          
+      }
+
+      nav a {
+          float: right;
+          display: block;
+          color: rgb(90, 13, 13);
+          text-align: center;
+          padding: 10px 16px;
+          text-decoration: none;
+      }
+
+      a:active{
+          color: beige;
+      }
+
+      nav a:hover {
+          background-color: rgb(193, 22, 110);
+          color: rgb(229, 227, 142);
+          transform: 0.5s;
+          text-transform: uppercase;
+
+      }
+
+      .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 8px;
+            font-weight: bold;
+            text-align: left;
+        }
+
+        input {
+            padding: 8px;
+            margin-bottom: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #a0456c;
+        }
+
+        .signin-link {
+            margin-top: 10px;
+            color: #27c01c;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .signin-link:hover {
+            text-decoration: none;
+            color: red;
+
+        }
+</style>
+
+</head>
+<body bgcolor="azure">
+    <header>
+      <a href="about-us.html"><img src="logo.jpg" height="100px" width="200px">  </a>  
+      <nav>
+          <a href="sign-up.html"><h3>Sign-Up</h3></a>
+          <a href="about-us.html"><h3>About Us</h3></a>
+          <a href="menu.html"><h3>Menu</h3></a>
+          <a href="index.html"><h3>Home</h3></a>
+      </nav>
+    </header><br>
+  <center>
+    <div class="container">
+      <h2>Sign Up</h2><br>
+      <form>
+          <label for="fullname">Full Name:</label>
+          <input type="text" id="fullname" name="fullname" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+
+          <button type="submit">Sign Up</button>
+      </form>
+      <br>
+      <a href="sign-in.html" class="signin-link">Already have an account? Sign in here.</a>
+    </div>
+  </center>
+    
+
+</body>
+</html>

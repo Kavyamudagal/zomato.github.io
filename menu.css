@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+ 
+  padding: 10px;
+  color: white;
+  text-align: center;
+  display: flex; /* Use flexbox to place children in a row */
+  justify-content: space-between; /* Space between logo and nav */
+}
+
+header img {
+  max-height: 100px; 
+  padding-left: 50px;
+  
+}
+
+h1{
+  font-size: xx-large;
+  font-family: Olive Village – Vintage Font;
+  text-align: center;
+  color: navy;
+  padding-left: 250px;
+  padding-top: 60px;
+  text-decoration: underline;
+  text-shadow: 0.5px;
+  
+}
+
+/* Style for the navigation bar */
+nav {
+  
+  overflow: hidden;
+  padding-right: 40px;
+  padding-top: 20px;
+}
+
+/* Style for the navigation bar links */
+nav a {
+  float: right;
+  display: block;
+  color: rgb(90, 13, 13);
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  
+}
+
+a:active{
+  color: beige;
+}
+
+nav a:hover {
+  background-color: rgb(193, 22, 110);
+  color: rgb(229, 227, 142);
+  transition: 0.5s;
+  text-transform: uppercase;
+}
+.title{
+  padding-left: 60px;
+}
+
+.image-container {
+  text-align: center; /* Optional: Centers the images and names */
+}
+
+.subtitle{
+  padding-left: 100px;
+  text-decoration: underline;
+}
+
+.image-container div {
+  display: inline-block;
+  margin: 40px; /* Adjust the margin as needed */
+  text-align: center;
+}
+
+.image-container img {
+  border-radius: 360px;
+  display: block;
+  margin-bottom: 5px; /* Adjust the margin as needed */
+}
+.image-container img:hover{
+  transition: 0.5s;
+}
+
+.image-container p {
+  margin: 0;
+}
+.order-button {
+  display: inline-block;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 5px; /* Added margin-bottom */
+  margin-right: 100px;
+}
+.order-button:hover{
+  background-color: rgb(32, 92, 3);
+  transition: 0.5s;
+  text-transform: uppercase;
+}
+
+.amount {
+  display: inline-block;
+  font-weight: bold;
+  margin-left: 10px; /* Added margin-left for space between button and amount */
+}
